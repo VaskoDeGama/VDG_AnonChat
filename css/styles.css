@@ -204,3 +204,7 @@ span.image-wrap {
 	min-height: 100px;
 }
 
+#chat { 
+	overflow-x: scroll;
+	height: 200px;
+	 }
