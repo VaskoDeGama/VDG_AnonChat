@@ -120,27 +120,6 @@ span.image-wrap {
 	margin-bottom: 5px;
 }
  /* картинка в хедере  */
-/* список*/
-.items {
-	margin: 0; 
-	padding: 0;
-	list-style-type: none; 
-	
-}
-/*список*/
-
-/*наведение на итем списка*/
-.items li:hover .done-button {
-	opacity: 1; /*прозрачность 1=100%*/
-}
-/*наведение на итем списка*/
-
-
-/*итем списка*/
-.items .item.done { 
-	text-decoration: line-through; /* зачеркнутый текст*/
-}
-/*итем списка*/
 
 .input {
 	font-size: 18px;
@@ -158,18 +137,6 @@ span.image-wrap {
 
 .input:focus {
 	outline: none;
-}
-
-.done-button {
-	display: inline-block;
-	font-size: 0.8em;
-	background-color: #9bc67c;
-	color: #000000;
-	padding: 5px;
-	border: 0;
-	opacity: 0.4;
-	box-shadow: 3px 3px 2px black;
-	margin-bottom: 2px;
 }
 
 .submit {
