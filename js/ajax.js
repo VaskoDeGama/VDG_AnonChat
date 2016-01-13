@@ -1,4 +1,3 @@
-<script src="jquery.min.js"></script>
 
 $(function(){
     var chat = $('#chat')[0]; // Окно чата
@@ -26,8 +25,7 @@ $(function(){
         if (text)
             send_data.text = $(text).val();
         // шлём запрос
-        $.post(
-            '../php/ajax.php',
+        $.post('php/ajax.php',
             send_data, // отдаём скрипту данные
             function (data) {
                 // ссылка пришла?
