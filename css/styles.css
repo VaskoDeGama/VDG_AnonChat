@@ -78,7 +78,6 @@ a {
 .standart { 
 	margin: 20px 10px 10px 5px; /* отступы  */
 	padding: 5px; /* внтуренние отступы  */
-	
 	background: url(../img/bgblock.png) repeat right top;  /*  картинка фона элементов */
 	-webkit-box-shadow: 13px 13px 5px -3px rgba(0,0,0,1);  /* тень  */
 	-moz-box-shadow: 13px 13px 5px -3px rgba(0,0,0,1); /* тень */
@@ -134,24 +133,18 @@ span.image-wrap {
 }
 /*итем списка*/
 
-
-.items li,
-.item-add .input {
-	border: 0;
-	border-bottom: 1px dashed #ccc;
-	margin: 3px;
-	padding: 3px;
-	position: relative;
-	margin: auto;
-	
-}
-
 .input {
 	font-size: 18px;
 	width: 90%;
 	display: block;
 	background: url(../img/bgblock.png) repeat right top;
 	color: #e1e1e1;
+	border: 0;
+	border-bottom: 1px dashed #ccc;
+	margin: 3px;
+	padding: 3px;
+	position: relative;
+	margin: auto;
 }
 
 .input:focus {
@@ -201,10 +194,10 @@ span.image-wrap {
 /* Footer
 -----------------------------------------------------------------------------*/
 .footer {
-	min-height: 100px;
 }
 
 #chat { 
 	overflow-x: scroll;
-	height: 200px;
+	height: 300px;
 	}
+	
