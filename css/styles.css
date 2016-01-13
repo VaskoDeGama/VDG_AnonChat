@@ -1,0 +1,206 @@
+/* Обнуленеие css браузера */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0; /* отступ внешний*/
+	padding: 0;/*отступ внутренний*/
+	border: 0;/* границы вокруг элемнта*/
+	font-size: 100%; /*размер шрифтов 100%*/
+	font: inherit; /*наследуем шрифт*/
+	vertical-align: baseline; /*выравнивание по вертикали: Выравнивает базовую линию текущего элемента по базовой линии родителя */
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block; /* отображение: block */
+}
+body {
+	line-height: 1; /* межстрочный интервал   */
+}
+ol, ul {
+	list-style: none; /*  отключаем стиль списка   */
+}
+/* ковычки отклчаем   */
+blockquote, q {
+	quotes: none; 
+}
+blockquote:before, blockquote:after, 
+q:before, q:after {
+	content: '';
+	content: none;
+}
+/* ковычки отклчаем   */
+
+/* сброс отображения таблиц  */
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* сброс отображения таблиц  */
+/* End of Eric Meyer's CSS Reset */
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+	display: block; /* отображаем как блок  */
+}
+body {
+	font-family: 'Lucida Grande', 'Helvetica Neue', sans-serif; /* уст. шрифт  */
+	font-size: 18px;/* размер шрифта  */
+	width: 100%;  /* ширина   */
+	background: url(../img/escheresque_ste.png) repeat top right; /* картинка фона повторяеться от верха справа  */
+	color: #cbcbcb; /* цвет текста   */
+}
+.wrapper {
+	width: 400px; /* ширина   */
+	margin: 0 auto; /* авто центровка(внешние отступы)  */
+	
+}
+input {
+	color: #363639; /* цвет текста   */
+}
+
+a {
+	text-decoration: none; /* отключаем украшательства текста у ссылки   */
+	border-bottom: 1px dashed #363639;  /*  нижняя граница толщиной 1px точки цвет  */
+	
+}
+/* стандартное отображение блоков   */
+.standart { 
+	margin: 20px 10px 10px 5px; /* отступы  */
+	padding: 5px; /* внтуренние отступы  */
+	
+	background: url(../img/bgblock.png) repeat right top;  /*  картинка фона элементов */
+	-webkit-box-shadow: 13px 13px 5px -3px rgba(0,0,0,1);  /* тень  */
+	-moz-box-shadow: 13px 13px 5px -3px rgba(0,0,0,1); /* тень */
+	box-shadow: 13px 13px 5px -3px rgba(0,0,0,1); /* тень */
+}
+/* стандартное отображение блоков   */
+
+
+ /* круглые углы  */
+.round{
+  -webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+border: 3px solid #06080a;
+}
+
+ /* круглые углы */
+ 
+  /* картинка в хедере   */
+span.image-wrap {
+	-webkit-box-shadow: 0 1px 0 rgba(255,255,255,.2), inset 0 4px 5px rgba(0,0,0,.6), inset 0 1px 0 rgba(0,0,0,.6);  /* тень  */
+	-moz-box-shadow: 0 1px 0 rgba(255,255,255,.2), inset 0 4px 5px rgba(0,0,0,.6), inset 0 1px 0 rgba(0,0,0,.6);  /* тень  */
+	box-shadow: 0 1px 0 rgba(255,255,255,.2), inset 0 4px 5px rgba(0,0,0,.6), inset 0 1px 0 rgba(0,0,0,.6);  /* тень  */
+	-webkit-border-radius: 20px;  /* круглый угол */
+	-moz-border-radius: 20px;  /* круглый угол */
+	border-radius: 20px; /* круглый угол */
+	position:relative;   /*Положение элемента устанавливается относительно его исходного места.  */
+	display:inline-block;  /*отоброжать как линейный блок*/
+	background:url(../img/84514.jpg) no-repeat center center; /* картинка не повтряетс отцетрованна*/
+	width: 250px; /*ширина*/
+	height: 250px;/*высота*/
+}
+ /* картинка в хедере  */
+/* список*/
+.items {
+	margin: 0; 
+	padding: 0;
+	list-style-type: none; 
+	
+}
+/*список*/
+
+/*наведение на итем списка*/
+.items li:hover .done-button {
+	opacity: 1; /*прозрачность 1=100%*/
+}
+/*наведение на итем списка*/
+
+
+/*итем списка*/
+.items .item.done { 
+	text-decoration: line-through; /* зачеркнутый текст*/
+}
+/*итем списка*/
+
+
+.items li,
+.item-add .input {
+	border: 0;
+	border-bottom: 1px dashed #ccc;
+	margin: 3px;
+	padding: 3px;
+	position: relative;
+	margin: auto;
+	
+}
+
+.input {
+	font-size: 18px;
+	width: 90%;
+	display: block;
+	background: url(../img/bgblock.png) repeat right top;
+	color: #e1e1e1;
+}
+
+.input:focus {
+	outline: none;
+}
+
+.done-button {
+	display: inline-block;
+	font-size: 0.8em;
+	background-color: #9bc67c;
+	color: #000000;
+	padding: 5px;
+	border: 0;
+	opacity: 0.4;
+	box-shadow: 3px 3px 2px black;
+	margin-bottom: 2px;
+}
+
+.submit {
+	padding: 5px;
+	width: 100%;
+	background-color: #9bc67c;
+	border: 0;
+	opacity: 0.4;
+	position: relative;
+	margin-top: 10px;
+	box-shadow: 3px 3px 2px black;
+}
+
+.submit:hover {
+	opacity: 1;
+}
+/* Header
+-----------------------------------------------------------------------------*/
+.header {
+	min-height: 100px;
+}
+
+
+/* Middle
+-----------------------------------------------------------------------------*/
+.content {
+	min-height: 100px;
+}
+
+
+/* Footer
+-----------------------------------------------------------------------------*/
+.footer {
+	min-height: 100px;
+}
+
