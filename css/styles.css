@@ -106,7 +106,7 @@ span.image-wrap {
 	border-radius: 20px; /* круглый угол */
 	position:relative;   /*Положение элемента устанавливается относительно его исходного места.  */
 	display:inline-block;  /*отоброжать как линейный блок*/
-	background:url(../img/84514.jpg) no-repeat center center; /* картинка не повтряетс отцетрованна*/
+	background:url(../img/vdg.jpg) no-repeat center center; /* картинка не повтряетс отцетрованна*/
 	width: 250px; /*ширина*/
 	height: 250px;/*высота*/
 }
