@@ -86,13 +86,21 @@ $(function(){
 	<link href="css/styles.css" media="screen" rel="stylesheet" type="text/css" />
 </head>
 <body>
-	<div id="chat" class="standart content round wrapper" data-last-id="0"></div>
+	<div class="wrapper">
+		<div class="header round standart">
+			<p align="center" class="effect">VDG_AanonChat</p>
+			<div align="center">
+			<span class="image-wrap"></span>
+		</div>
+		</div>
+	<div id="chat" class="content round standart" data-last-id="0"></div>
 	
-	<div id = "chat-msg">
+	<div id = "chat-msg" class="standart 	round footer">
 <form id="chat-form">
-    <input type="text" id="chat-msg"/>
-    <input type="submit" value="Написать"/>
+    <input type="text" class="input" id="chat-msg"/>
+    <input type="submit" class="submit" value="Написать"/>
 </form>
+	</div>
 	</div>
 </body>
 </html>
