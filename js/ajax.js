@@ -1,8 +1,9 @@
 <script src="jquery.min.js"></script>
+
 $(function(){
     var chat = $('#chat')[0]; // Окно чата
     var form = $('#chat-form')[0]; // форма
-    
+
     // вешаем обработчик на отправку формы
     $('#chat-form').submit(function(event){
         
