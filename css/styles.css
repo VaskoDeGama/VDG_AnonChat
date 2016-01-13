@@ -50,6 +50,8 @@ table {
 /* сброс отображения таблиц  */
 /* End of Eric Meyer's CSS Reset */
 
+
+
 article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
 	display: block; /* отображаем как блок  */
 }
@@ -64,6 +66,12 @@ body {
 	width: 400px; /* ширина   */
 	margin: 0 auto; /* авто центровка(внешние отступы)  */
 	
+}
+.effect {
+	color: rgba(0,0,0,0.6);
+    text-shadow: 2px 2px 3px rgba(255,255,255,0.1);
+	font-size: 60;
+	margin-bottom: 10px;
 }
 input {
 	color: #363639; /* цвет текста   */
@@ -109,6 +117,7 @@ span.image-wrap {
 	background:url(../img/vdg.jpg) no-repeat center center; /* картинка не повтряетс отцетрованна*/
 	width: 250px; /*ширина*/
 	height: 250px;/*высота*/
+	margin-bottom: 5px;
 }
  /* картинка в хедере  */
 /* список*/
